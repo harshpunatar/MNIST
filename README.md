@@ -13,7 +13,7 @@ A machine learning web app built using **Streamlit** and **TensorFlow** that rec
 
 ---
 
-## 📁 Files
+## Files
 
 | File | Description |
 |------|-------------|
@@ -32,12 +32,14 @@ cd MNIST
 ```
 
 2. Install the Dependencies
-
+```bash
 pip install streamlit tensorflow numpy pillow
+```
 
 3. Run the app
-
+```bash
 streamlit run app.py
+```
 
 ---
 
@@ -79,5 +81,6 @@ model.fit(x_train, y_train, epochs=5, validation_data=(x_test, y_test))
 ### Result
 
 Test Accuracy: 98.63%
+<br>
 Model saved as: mnist_model.h5
 
